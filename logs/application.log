@@ -1,0 +1,15 @@
+2023-07-06 10:15:09.065 [http-nio-8081-exec-7] INFO  GetAll - Success
+2023-07-06 10:27:55.894 [http-nio-8081-exec-2] INFO  GetAll - Success
+2023-07-06 10:36:38.980 [http-nio-8081-exec-4] INFO  GetAll - Success
+2023-07-06 10:36:39.918 [http-nio-8081-exec-2] INFO  GetAll - Success
+2023-07-06 10:49:32.931 [http-nio-8081-exec-2] INFO  CrudOperations - Updated
+2023-07-06 10:50:07.403 [http-nio-8081-exec-5] INFO  CrudOperations - Success
+2023-07-06 10:50:28.243 [http-nio-8081-exec-8] INFO  CrudOperations - Not found
+2023-07-06 10:51:10.061 [http-nio-8081-exec-10] INFO  GetAll - Success
+2023-07-06 10:51:25.047 [http-nio-8081-exec-1] ERROR GetAll - An exception occurred : org.postgresql.util.PSQLException: The column name rollno was not found in this ResultSet.
+2023-07-06 10:51:55.026 [http-nio-8081-exec-5] INFO  GetAll - Success
+2023-07-06 11:10:26.235 [http-nio-8081-exec-3] INFO  CrudOperations - Updated
+2023-07-06 11:10:49.101 [http-nio-8081-exec-6] INFO  GetAll - Success
+2023-07-06 12:06:26.861 [http-nio-8081-exec-4] INFO  CrudOperations - Not found
+2023-07-06 12:06:30.752 [http-nio-8081-exec-10] INFO  CrudOperations - Not found
+2023-07-06 12:07:34.956 [http-nio-8081-exec-3] INFO  CrudOperations - Success
