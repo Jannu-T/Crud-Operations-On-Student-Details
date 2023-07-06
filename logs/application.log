@@ -13,6 +13,7 @@
 2023-07-06 12:06:26.861 [http-nio-8081-exec-4] INFO  CrudOperations - Not found
 2023-07-06 12:06:30.752 [http-nio-8081-exec-10] INFO  CrudOperations - Not found
 2023-07-06 12:07:34.956 [http-nio-8081-exec-3] INFO  CrudOperations - Success
+<<<<<<< HEAD
 2023-07-10 15:43:49.525 [http-nio-8081-exec-4] INFO  GetAll - Success
 2023-07-10 15:44:58.520 [http-nio-8081-exec-8] INFO  CrudOperations - Not found
 2023-07-10 15:47:13.972 [http-nio-8081-exec-4] INFO  GetAll - Success
@@ -49,3 +50,5 @@
 2023-07-11 11:41:47.289 [http-nio-8081-exec-1] INFO  CrudOperations - GetByStudentId operation is successfully done
 2023-07-11 11:42:05.094 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
 2023-07-11 11:42:05.111 [http-nio-8081-exec-2] INFO  CrudOperations - Rollno not found. Can't get.
+=======
+>>>>>>> e6dda74 (first commit)
