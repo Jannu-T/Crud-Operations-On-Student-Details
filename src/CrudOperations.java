@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 @WebServlet("/student")
 public class CrudOperations extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(CrudOperations.class);
-    //Gson object
+    //Creating Gson object
     public static final Gson gson=new Gson();
 
     // Establish a database connection using JDBC
@@ -57,12 +57,7 @@ public class CrudOperations extends HttpServlet {
                 ResultSet rs = stmt.executeQuery(StudentDetails.GET_STUDENTS);
 
                 while (rs.next()) {
-                    int rollno = rs.getInt("rollno");
-                    String name = rs.getString("name");
-                    int age = rs.getInt("age");
-                    String dept = rs.getString("dept");
-                    String grade = rs.getString("grade");
-                    StudentDetails student = new StudentDetails(rollno, name, age, dept, grade);
+                    StudentDetails student = StudentDetails.getData(rs);
                     // Populate other student attributes if needed
                     students.add(student);
                 }
@@ -86,14 +81,8 @@ public class CrudOperations extends HttpServlet {
 
                 //Finding student by using rollno
                 if (rs.next()) {
-                    int rollNo = rs.getInt("rollno");
-                    String name = rs.getString("name");
-                    int age = rs.getInt("age");
-                    String dept = rs.getString("dept");
-                    String grade = rs.getString("grade");
 
-                    // Creating a Stu object with fetched student details
-                    StudentDetails student = new StudentDetails(rollNo, name, age, dept, grade);
+                    StudentDetails student = StudentDetails.getData(rs);
                     // Adding the student to the list
                     students.add(student);
 
@@ -190,11 +179,16 @@ public class CrudOperations extends HttpServlet {
             PreparedStatement stmt = conn.prepareStatement(StudentDetails.UPDATE_STUDENT);
 
             //Setting the new data to the student
-            stmt.setString(1, studentDetails.name);
+            stmt.setString(1,studentDetails.name);
             stmt.setInt(2,studentDetails.age);
             stmt.setString(3,studentDetails.dept);
             stmt.setString(4,studentDetails.grade);
             stmt.setInt(5, studentDetails.rollno);
+            /*stmt.setString(1, studentDetails.name);
+            stmt.setInt(2,studentDetails.age);
+            stmt.setString(3,studentDetails.dept);
+            stmt.setString(4,studentDetails.grade);
+            stmt.setInt(5, studentDetails.rollno);*/
 
             // Executing the update query
             int rowsUpdated = stmt.executeUpdate();

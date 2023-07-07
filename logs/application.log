@@ -145,3 +145,23 @@
 2023-07-07 16:07:02.420 [http-nio-8081-exec-2] INFO  CrudOperations - Rollno not found. Can't get.
 2023-07-07 16:07:08.967 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
 2023-07-07 16:07:09.053 [http-nio-8081-exec-3] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 18:34:09.312 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 18:34:09.374 [http-nio-8081-exec-4] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 18:34:14.192 [http-nio-8081-exec-5] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 18:34:14.207 [http-nio-8081-exec-5] INFO  CrudOperations - GetAllStudent operation is successfully done.
+2023-07-07 22:32:25.708 [http-nio-8081-exec-6] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 22:32:25.752 [http-nio-8081-exec-6] ERROR CrudOperations - An exception occurred in PUT method (SQLException) : org.postgresql.util.PSQLException: ERROR: operator does not exist: integer = character varying
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+  Position: 76
+2023-07-07 22:34:24.548 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 22:34:24.617 [http-nio-8081-exec-1] INFO  CrudOperations - Rollno not found. Can't update.
+2023-07-07 22:35:33.540 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 22:35:33.601 [http-nio-8081-exec-1] ERROR CrudOperations - An exception occurred in PUT method (SQLException) : org.postgresql.util.PSQLException: ERROR: operator does not exist: integer = character varying
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+  Position: 76
+2023-07-07 22:36:36.126 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 22:36:36.187 [http-nio-8081-exec-1] INFO  CrudOperations - Student record successfully updated.
+2023-07-07 22:45:37.645 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 22:45:37.715 [http-nio-8081-exec-1] INFO  CrudOperations - Student record successfully updated.
+2023-07-07 22:46:03.420 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 22:46:03.501 [http-nio-8081-exec-4] INFO  CrudOperations - GetAllStudent operation is successfully done.

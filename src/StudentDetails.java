@@ -2,6 +2,7 @@ import com.google.gson.Gson;
 
 import javax.servlet.http.HttpServletRequest;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -50,5 +51,14 @@ public class StudentDetails {
     public static int rollNoFromRequest(HttpServletRequest request)
     {
         return Integer.parseInt(request.getParameter("rollno"));
+    }
+    public static StudentDetails getData(ResultSet rs) throws SQLException {
+        int studentId = rs.getInt("rollno");
+        String stuName = rs.getString("name");
+        int stuAge = rs.getInt("age");
+        String stuDept = rs.getString("dept");
+        String stuGrade = rs.getString("grade");
+
+        return new StudentDetails(studentId, stuName, stuAge, stuDept, stuGrade);
     }
 }
