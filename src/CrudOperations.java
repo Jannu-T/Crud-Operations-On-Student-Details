@@ -13,7 +13,6 @@ import java.util.List;
 import java.sql.*;
 import org.jetbrains.annotations.NotNull;
 
-// GetStudentByIdServlet.java
 @WebServlet("/student")
 public class CrudOperations extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(CrudOperations.class);
