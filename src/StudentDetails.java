@@ -51,14 +51,4 @@ public class StudentDetails {
     {
         return Integer.parseInt(request.getParameter("rollno"));
     }
-    public static StudentDetails getResultset(ResultSet rs) throws SQLException {
-        int studentId = rs.getInt("rollno");
-        String stuName = rs.getString("name");
-        int stuAge = rs.getInt("age");
-        String stuDept = rs.getString("dept");
-        String stuGrade = rs.getString("grade");
-
-        // Create a new StudentDetails object with the extracted values
-        return new StudentDetails(studentId, stuName, stuAge, stuDept, stuGrade);
-    }
 }
