@@ -13,3 +13,135 @@
 2023-07-06 12:06:26.861 [http-nio-8081-exec-4] INFO  CrudOperations - Not found
 2023-07-06 12:06:30.752 [http-nio-8081-exec-10] INFO  CrudOperations - Not found
 2023-07-06 12:07:34.956 [http-nio-8081-exec-3] INFO  CrudOperations - Success
+2023-07-06 18:46:38.978 [http-nio-8081-exec-3] INFO  GetAll - Success
+2023-07-06 18:46:57.989 [http-nio-8081-exec-5] INFO  CrudOperations - Not found
+2023-07-06 18:47:10.436 [http-nio-8081-exec-6] INFO  CrudOperations - Success
+2023-07-06 23:28:20.586 [http-nio-8081-exec-3] INFO  GetAll - Success
+2023-07-06 23:28:21.697 [http-nio-8081-exec-5] INFO  GetAll - Success
+2023-07-06 23:28:32.422 [http-nio-8081-exec-8] INFO  CrudOperations - Database successfully connected
+2023-07-06 23:28:32.497 [http-nio-8081-exec-8] INFO  CrudOperations - Success
+2023-07-07 10:34:35.238 [http-nio-8081-exec-1] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 10:34:35.470 [http-nio-8081-exec-1] INFO  GetAll - Success
+2023-07-07 10:36:43.482 [http-nio-8081-exec-2] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 10:36:53.591 [http-nio-8081-exec-2] INFO  GetAll - Success
+2023-07-07 11:11:13.866 [http-nio-8081-exec-4] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 11:11:13.961 [http-nio-8081-exec-4] INFO  GetAll - Success
+2023-07-07 11:11:14.873 [http-nio-8081-exec-5] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 11:11:14.884 [http-nio-8081-exec-5] INFO  GetAll - Success
+2023-07-07 11:40:52.292 [http-nio-8081-exec-3] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 11:40:52.414 [http-nio-8081-exec-3] INFO  GetAll - Success
+2023-07-07 11:40:52.890 [http-nio-8081-exec-4] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 11:40:52.901 [http-nio-8081-exec-4] INFO  GetAll - Success
+2023-07-07 11:44:53.323 [http-nio-8081-exec-1] INFO  GetAll - GetByStudentId operation is successfully done
+2023-07-07 11:44:56.875 [http-nio-8081-exec-2] INFO  GetAll - GetByStudentId operation is successfully done
+2023-07-07 11:44:59.156 [http-nio-8081-exec-3] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 11:44:59.170 [http-nio-8081-exec-3] INFO  GetAll - Success
+2023-07-07 12:17:08.376 [http-nio-8081-exec-1] INFO  GetAll - GetByStudentId operation is successfully done
+2023-07-07 12:17:16.382 [http-nio-8081-exec-8] INFO  GetAll - GetByStudentId operation is successfully done
+2023-07-07 12:17:18.551 [http-nio-8081-exec-9] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 12:17:18.561 [http-nio-8081-exec-9] INFO  GetAll - Success
+2023-07-07 12:30:55.543 [http-nio-8081-exec-3] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 12:30:55.648 [http-nio-8081-exec-3] INFO  GetAll - Success
+2023-07-07 12:30:56.083 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 12:30:56.097 [http-nio-8081-exec-4] INFO  CrudOperations - Success
+2023-07-07 12:31:03.385 [http-nio-8081-exec-5] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 12:31:03.427 [http-nio-8081-exec-5] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 12:31:14.300 [http-nio-8081-exec-6] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 12:31:14.331 [http-nio-8081-exec-6] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 12:31:14.552 [http-nio-8081-exec-7] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 12:31:14.564 [http-nio-8081-exec-7] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 12:31:22.143 [http-nio-8081-exec-8] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 12:31:22.159 [http-nio-8081-exec-8] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 12:31:25.150 [http-nio-8081-exec-9] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 12:31:25.168 [http-nio-8081-exec-9] INFO  GetAll - Success
+2023-07-07 14:03:32.832 [http-nio-8081-exec-5] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:03:32.881 [http-nio-8081-exec-5] INFO  CrudOperations - Inserted
+2023-07-07 14:06:22.403 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:08:56.176 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:09:15.329 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:18:45.202 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:18:45.236 [http-nio-8081-exec-2] ERROR CrudOperations - An exception occurred: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "student_pkey"
+  Detail: Key (rollno)=(18365) already exists.
+2023-07-07 14:19:22.435 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:19:56.555 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:20:32.728 [http-nio-8081-exec-6] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:20:32.746 [http-nio-8081-exec-6] INFO  CrudOperations - Inserted
+2023-07-07 14:21:24.033 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:22:04.683 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:22:17.267 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:22:34.413 [http-nio-8081-exec-6] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:22:34.432 [http-nio-8081-exec-6] INFO  CrudOperations - Inserted
+2023-07-07 14:25:28.899 [http-nio-8081-exec-8] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:25:29.078 [http-nio-8081-exec-8] INFO  CrudOperations - Success
+2023-07-07 14:25:56.412 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:25:56.453 [http-nio-8081-exec-2] INFO  CrudOperations - Successfully student record deleted
+2023-07-07 14:26:02.729 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:26:02.739 [http-nio-8081-exec-1] INFO  CrudOperations - Rollno not found
+2023-07-07 14:27:18.997 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:27:19.021 [http-nio-8081-exec-4] INFO  CrudOperations - Success
+2023-07-07 14:29:08.289 [http-nio-8081-exec-7] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:29:08.315 [http-nio-8081-exec-7] INFO  CrudOperations - Rollno not found
+2023-07-07 14:29:14.879 [http-nio-8081-exec-9] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:29:14.905 [http-nio-8081-exec-9] INFO  CrudOperations - Student record updated successfully
+2023-07-07 14:29:25.087 [http-nio-8081-exec-10] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:29:25.108 [http-nio-8081-exec-10] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 14:29:30.539 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:29:30.550 [http-nio-8081-exec-2] INFO  CrudOperations - Success
+2023-07-07 14:29:41.079 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:29:41.092 [http-nio-8081-exec-1] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 14:31:56.781 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:31:56.955 [http-nio-8081-exec-2] INFO  CrudOperations - Success
+2023-07-07 14:32:02.976 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:32:03.036 [http-nio-8081-exec-3] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 14:33:32.156 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:33:32.335 [http-nio-8081-exec-2] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 14:34:33.555 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:34:33.734 [http-nio-8081-exec-2] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 14:38:01.367 [http-nio-8081-exec-7] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:38:01.367 [http-nio-8081-exec-7] ERROR CrudOperations - An exception occurred: java.lang.NumberFormatException: For input string: ""
+2023-07-07 14:46:40.972 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:46:41.144 [http-nio-8081-exec-1] INFO  CrudOperations - Success
+2023-07-07 14:47:00.980 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:47:00.981 [http-nio-8081-exec-3] ERROR CrudOperations - An exception occurred in GET method : java.lang.NumberFormatException: For input string: ""
+2023-07-07 14:49:01.457 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:49:01.467 [http-nio-8081-exec-1] ERROR CrudOperations - An exception occurred in GET method : java.lang.NumberFormatException: For input string: ""
+2023-07-07 14:53:51.146 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:53:51.157 [http-nio-8081-exec-1] ERROR CrudOperations - An exception occurred in GET method : java.lang.NumberFormatException: For input string: ""
+2023-07-07 14:54:03.562 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:54:03.772 [http-nio-8081-exec-3] INFO  CrudOperations - Success
+2023-07-07 14:55:59.782 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 14:55:59.922 [http-nio-8081-exec-1] INFO  CrudOperations - Rollno not found
+2023-07-07 15:01:51.493 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:01:51.616 [http-nio-8081-exec-1] INFO  CrudOperations - Rollno not found
+2023-07-07 15:01:58.363 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:01:58.430 [http-nio-8081-exec-3] INFO  CrudOperations - Success
+2023-07-07 15:02:13.326 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:02:13.337 [http-nio-8081-exec-4] INFO  CrudOperations - Rollno not found
+2023-07-07 15:02:21.766 [http-nio-8081-exec-5] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:02:21.782 [http-nio-8081-exec-5] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 15:03:32.480 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:03:32.630 [http-nio-8081-exec-1] ERROR CrudOperations - An exception occurred in GET method (SQLException) : org.postgresql.util.PSQLException: The column name rollno was not found in this ResultSet.
+2023-07-07 15:17:45.558 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:17:45.736 [http-nio-8081-exec-1] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 15:26:58.024 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:26:58.103 [http-nio-8081-exec-3] INFO  CrudOperations - Student record successfully updated.
+2023-07-07 15:27:13.092 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:27:13.235 [http-nio-8081-exec-4] INFO  CrudOperations - GetByStudentId operation is successfully done
+2023-07-07 15:29:45.875 [http-nio-8081-exec-5] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:29:45.886 [http-nio-8081-exec-5] INFO  CrudOperations - Rollno not found. Can't read.
+2023-07-07 15:49:21.775 [http-nio-8081-exec-1] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 15:49:21.943 [http-nio-8081-exec-1] INFO  GetAll - Success
+2023-07-07 15:54:21.228 [http-nio-8081-exec-1] INFO  GetAll - StudentDetails database successfully connected
+2023-07-07 15:54:21.440 [http-nio-8081-exec-1] INFO  GetAll - Success
+2023-07-07 15:54:35.147 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:54:35.157 [http-nio-8081-exec-3] INFO  CrudOperations - GetAllStudent operation is successfully done.
+2023-07-07 15:54:49.171 [http-nio-8081-exec-4] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:54:49.172 [http-nio-8081-exec-4] ERROR CrudOperations - An exception occurred in GET method : java.lang.NumberFormatException: For input string: ""
+2023-07-07 15:54:55.765 [http-nio-8081-exec-5] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:54:55.832 [http-nio-8081-exec-5] INFO  CrudOperations - Rollno not found. Can't read.
+2023-07-07 15:55:42.457 [http-nio-8081-exec-1] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 15:55:42.592 [http-nio-8081-exec-1] INFO  CrudOperations - Rollno not found. Can't get.
+2023-07-07 16:07:02.282 [http-nio-8081-exec-2] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 16:07:02.420 [http-nio-8081-exec-2] INFO  CrudOperations - Rollno not found. Can't get.
+2023-07-07 16:07:08.967 [http-nio-8081-exec-3] INFO  CrudOperations - StudentDetails database successfully connected
+2023-07-07 16:07:09.053 [http-nio-8081-exec-3] INFO  CrudOperations - GetByStudentId operation is successfully done
