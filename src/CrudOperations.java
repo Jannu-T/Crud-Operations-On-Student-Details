@@ -184,11 +184,6 @@ public class CrudOperations extends HttpServlet {
             stmt.setString(3,studentDetails.dept);
             stmt.setString(4,studentDetails.grade);
             stmt.setInt(5, studentDetails.rollno);
-            /*stmt.setString(1, studentDetails.name);
-            stmt.setInt(2,studentDetails.age);
-            stmt.setString(3,studentDetails.dept);
-            stmt.setString(4,studentDetails.grade);
-            stmt.setInt(5, studentDetails.rollno);*/
 
             // Executing the update query
             int rowsUpdated = stmt.executeUpdate();
