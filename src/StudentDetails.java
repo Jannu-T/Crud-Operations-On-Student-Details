@@ -1,5 +1,3 @@
-import com.google.gson.Gson;
-
 import javax.servlet.http.HttpServletRequest;
 
 import java.sql.PreparedStatement;
@@ -21,8 +19,6 @@ public class StudentDetails {
     // Query to delete a student
     static final String DELETE_STUDENT = "DELETE FROM student WHERE rollno = ?";
 
-    //Gson object
-    public static final Gson gson=new Gson();
     int rollno;
     String name;
     int age;
