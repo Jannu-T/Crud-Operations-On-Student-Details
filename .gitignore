@@ -2,10 +2,6 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-<<<<<<< HEAD
-=======
-
->>>>>>> e6dda74 (first commit)
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -14,10 +10,6 @@ target/
 *.iws
 *.iml
 *.ipr
-<<<<<<< HEAD
-=======
-
->>>>>>> e6dda74 (first commit)
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -26,10 +18,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-<<<<<<< HEAD
-=======
-
->>>>>>> e6dda74 (first commit)
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -39,14 +27,9 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-<<<<<<< HEAD
 ### VS Code ###
 .vscode/
-=======
-
 ### VS Code ###
 .vscode/
-
->>>>>>> e6dda74 (first commit)
 ### Mac OS ###
 .DS_Store
