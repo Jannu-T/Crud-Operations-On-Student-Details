@@ -1,33 +1,24 @@
 import com.google.gson.Gson;
-<<<<<<< HEAD
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-=======
 import org.apache.logging.log4j.*;
 import org.jetbrains.annotations.NotNull;
->>>>>>> e6dda74 (first commit)
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.*;
 import org.jetbrains.annotations.NotNull;
-=======
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
->>>>>>> e6dda74 (first commit)
 
 @WebServlet("/student")
 public class CrudOperations extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(CrudOperations.class);
-<<<<<<< HEAD
+
     //Creating Gson object
     public static final Gson gson=new Gson();
 
@@ -106,8 +97,7 @@ public class CrudOperations extends HttpServlet {
 
                     //Log success message
                     logger.info("GetByStudentId operation is successfully done");
-                }
-                else {
+                }else {
                     // If student not found, return an appropriate response
                     response.setStatus(HttpServletResponse.SC_NOT_FOUND);
                     // Printing the response
@@ -149,7 +139,7 @@ public class CrudOperations extends HttpServlet {
             stmt.setInt(3,studentDetails.age);
             stmt.setString(4,studentDetails.dept);
             stmt.setString(5,studentDetails.grade);
-=======
+
     protected void doGet(@org.jetbrains.annotations.NotNull HttpServletRequest request, @NotNull HttpServletResponse response) throws ServletException, IOException {
         int studentId = Integer.parseInt(request.getParameter("rollno"));
         // Establish a database connection using JDBC
@@ -222,7 +212,6 @@ public class CrudOperations extends HttpServlet {
             stmt.setInt(3,stuAge);
             stmt.setString(4,stuDept);
             stmt.setString(5,grade);
->>>>>>> e6dda74 (first commit)
 
             //Execute the SQL statement
             stmt.executeUpdate();
@@ -231,7 +220,6 @@ public class CrudOperations extends HttpServlet {
             stmt.close();
             conn.close();
 
-<<<<<<< HEAD
             // Set the response status
             response.setStatus(HttpServletResponse.SC_OK);
 
@@ -250,7 +238,7 @@ public class CrudOperations extends HttpServlet {
             // Printing the error message as response
             response.getWriter().write(gson.toJson("An exception occurred in POST method : " + e));
             logger.error("An exception occurred in POST method : " + e);
-=======
+
             // Set the response status and content type
             response.setStatus(HttpServletResponse.SC_OK); // Setting the HTTP response status to 200 (OK)
             response.setContentType("application/json"); // Setting the response content type to JSON
@@ -270,12 +258,11 @@ public class CrudOperations extends HttpServlet {
             logger.error("An exception occurred: " + e); // Logging the exception using log4j
         } catch (Exception e){
             logger.error("An exception occurred: " + e); // Logging the exception using log4j
->>>>>>> e6dda74 (first commit)
         }
     }
     @Override
     protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-<<<<<<< HEAD
+
         //Extracting the values from request body
         StudentDetails studentDetails=StudentDetails.studentFromRequest(request);
         //Set the content type of response as JSON
@@ -296,7 +283,7 @@ public class CrudOperations extends HttpServlet {
 
             // Executing the update query
             int rowsUpdated = stmt.executeUpdate();
-=======
+
         int StudentId = Integer.parseInt(request.getParameter("rollno")); // Extracting the student ID from the request
 
         // Read the new student details from the request body
@@ -318,7 +305,6 @@ public class CrudOperations extends HttpServlet {
             stmt.setInt(5, StudentId); // Setting the student rollno
 
             int rowsUpdated = stmt.executeUpdate(); // Executing the update query
->>>>>>> e6dda74 (first commit)
 
             //Closing the statement and connection
             stmt.close();
@@ -326,21 +312,17 @@ public class CrudOperations extends HttpServlet {
 
             if (rowsUpdated > 0) {
                 // Student name updated successfully
-<<<<<<< HEAD
                 response.setStatus(HttpServletResponse.SC_OK);
                 response.getWriter().write(gson.toJson("UPDATED SUCCESSFULLY"));
                 logger.info("Student record successfully updated.");//Log message
-=======
                 response.setStatus(HttpServletResponse.SC_OK); // Setting the HTTP response status to 200 (OK)
                 response.setContentType("application/json"); // Setting the response content type to JSON
                 response.getWriter().write("UPDATED"); // Writing "UPDATED" as the response body
                 logger.info("Updated");//Log message
->>>>>>> e6dda74 (first commit)
             } else {
                 // Student not found or no changes made, return an appropriate response
                 response.setStatus(HttpServletResponse.SC_NOT_FOUND);
                 //Printing the response
-<<<<<<< HEAD
                 response.getWriter().write(gson.toJson("Rollno not found. Can't update."));
                 //Log success message
                 logger.info("Rollno not found. Can't update.");
@@ -371,7 +353,6 @@ public class CrudOperations extends HttpServlet {
 
             // Executing the delete query
             int rowsUpdated = stmt.executeUpdate();
-=======
                 response.getWriter().write(("Not found!"));
                 //Log success message
                 logger.info("Not found");
@@ -398,12 +379,10 @@ public class CrudOperations extends HttpServlet {
             stmt.setInt(1, studentId); // Setting the student ID
 
             int rowsUpdated = stmt.executeUpdate(); // Executing the delete query
->>>>>>> e6dda74 (first commit)
 
             // Closing the statement and connection
             stmt.close();
             conn.close();
-<<<<<<< HEAD
 
             if (rowsUpdated > 0) {
                 // Student name updated successfully
@@ -431,7 +410,6 @@ public class CrudOperations extends HttpServlet {
         }
     }
 }
-=======
             if (rowsUpdated > 0) {
                 // Student name updated successfully
                 response.setStatus(HttpServletResponse.SC_OK); // Setting the HTTP response status to 200 (OK)
@@ -468,4 +446,3 @@ public class CrudOperations extends HttpServlet {
         return json;
     }
 }
->>>>>>> e6dda74 (first commit)
